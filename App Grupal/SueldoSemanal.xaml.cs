@@ -12,7 +12,6 @@ public partial class SueldoSemanal : ContentPage
         string total;
 		double ht1 = Convert.ToDouble(ht.Text);
         double ph1 = Convert.ToDouble(ph.Text);
-
         double p = (ht1 * ph1);
         total = p.ToString("0.00");
 
