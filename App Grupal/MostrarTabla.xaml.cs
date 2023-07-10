@@ -5,7 +5,7 @@ namespace App_Grupal;
 ///<company> INDEL </company>
 ///<lastmodificationdate> 2023/07/09 </lastmodificationdate>
 ///<lastmodificationdescription>
-/// Se realizo el diseño y se configuró el código cs de la app y se agregó la imagen en el diseño
+/// Se realizo el diseño y se configuró el código cs de la app
 ///</lastmodificationdescription>
 ///<lastmodifierautor> Carlos Mito </lastmodifierautor>
 ///</Summary>

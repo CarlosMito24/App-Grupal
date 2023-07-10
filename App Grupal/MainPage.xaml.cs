@@ -3,9 +3,9 @@
 ///<Summary>
 ///<Createddate> 2023/07/09 </Createddate>
 ///<company> INDEL </company>
-///<lastmodificationdate> 2023/07/09 </lastmodificationdate>
+///<lastmodificationdate> 2023/07/10 </lastmodificationdate>
 ///<lastmodificationdescription>
-/// Se realizo el diseño y se configuró el código cs de la app y se agregó la imagen en el diseño
+/// Se realizo el diseño, se configuró el código cs de la app para navegar a las demás apps, se agregó la imagen en el diseño de cada botón y se organizó todo según guía de trabajo
 ///</lastmodificationdescription>
 ///<lastmodifierautor> Carlos Mito </lastmodifierautor>
 ///</Summary>

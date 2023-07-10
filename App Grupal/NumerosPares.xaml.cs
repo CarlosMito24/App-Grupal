@@ -5,7 +5,7 @@ namespace App_Grupal;
 ///<company>INDEL</company>
 ///<lastmodificationdate>10/7/2023</lastmodificationdate>
 ///<lastmodificationdescription>
-/// SE realizo el diseño de la app, y se configuró el archivo C#
+/// SE realizo el diseño de la app, y se configuró el archivo cs
 ///</lastmodificationdescription>
 ///<lastmodifierautor> Maycol Barrera </lastmodifierautor>
 ///</Summary>

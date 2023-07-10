@@ -6,28 +6,12 @@
 
     <ScrollView>
         <VerticalStackLayout Margin="25, 25, 25, 25">
-            <Image Source="langosta.jpg" 
-                   WidthRequest="300"/>
-
-            <Label Margin="10, 10, 10, 10" FontFamily="Century Gothic"
-                   FontSize="Medium">Digite el numero de personas</Label>
-
-            <Entry x:Name="np" Placeholder="Numero Personas" 
-                   Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium">
-            </Entry>
-            
-            <Button Text="Calcular Pago" Clicked="Button_Clicked" 
-                    Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium">
-            </Button>
-
-            <Label Margin="10, 10, 10, 10" FontFamily="Century Gothic"
-                   FontSize="Medium">El pago es:
-            </Label>
-
-            <Label x:Name="la" Margin="10, 10, 10, 10" FontFamily="Century Gothic"
-                   FontSize="Medium">
-            </Label>
-
+            <Image Source="langosta.jpg" WidthRequest="300"/>
+            <Label Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium">Digite el numero de personas</Label>
+            <Entry x:Name="np" Placeholder="Numero Personas" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Entry>
+            <Button Text="Calcular Pago" Clicked="Button_Clicked" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Button>
+            <Label Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium">El pago es:</Label>
+            <Label x:Name="la" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Label>
         </VerticalStackLayout>
     </ScrollView>
     

@@ -6,35 +6,14 @@
     
     <ScrollView>
         <VerticalStackLayout Margin="25, 25, 25, 25">
-            <Image Source="sueldosemanal.jpg" 
-                   WidthRequest="300"/>
-
-            <Label Margin="10, 10, 10, 10" FontFamily="Century Gothic"
-                   FontSize="Medium">Digite las horas que trabajó en la semana</Label>
-
-            <Entry x:Name="ht" Placeholder="Horas que trabajó" 
-                   Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium">
-            </Entry>
-
-            <Label Margin="10, 10, 10, 10" FontFamily="Century Gothic"
-                   FontSize="Medium">Digite el pago por hora</Label>
-
-            <Entry x:Name="ph" Placeholder="Escriba el pago por hora que recibe" 
-                   Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium">
-            </Entry>
-
-            <Button Text="Calcular Sueldo" Clicked="Button_Clicked" 
-                    Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium">
-            </Button>
-            
-            <Label Margin="10, 10, 10, 10" FontFamily="Century Gothic"
-                   FontSize="Medium"> El pago es:
-            </Label>
-
-            <Label x:Name="la" Margin="10, 10, 10, 10" FontFamily="Century Gothic"
-                   FontSize="Medium">
-            </Label>
-
+            <Image Source="sueldosemanal.jpg" WidthRequest="300"/>
+            <Label Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium">Digite las horas que trabajó en la semana</Label>
+            <Entry x:Name="ht" Placeholder="Horas que trabajó" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Entry>
+            <Label Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium">Digite el pago por hora</Label>
+            <Entry x:Name="ph" Placeholder="Escriba el pago por hora que recibe" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Entry>
+            <Button Text="Calcular Sueldo" Clicked="Button_Clicked" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"> </Button>
+            <Label Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium">El pago es:</Label>
+            <Label x:Name="la" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Label>
         </VerticalStackLayout>
     </ScrollView>
     

@@ -5,11 +5,14 @@
 
     <ScrollView>
         <VerticalStackLayout Margin="25, 25, 25, 25">
+            <Image Source="numerospares.jpg" WidthRequest="300"/>
+            <Button x:Name="Buttonnumerospares" Text="Números Pares" Clicked= "Buttonnumerospares_Clicked" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Button>
+
+            <Image Source="cuentaregresiva.jpg" WidthRequest="300"/>
+            <Button x:Name="ButtonCuentaRegresiva" Text="Cuenta Regresiva" Clicked= "ButtonCuentaRegresiva_Clicked" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Button>
+            
             <Image Source="tablas.png" WidthRequest="300"/>
             <Button x:Name="ButtonTablas" Text="Tablas de multiplicar" Clicked="ButtonTablasClicked" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Button>
-
-            <Image Source="pesosdolares.jpg" WidthRequest="300"/>
-            <Button x:Name="ButtonPesosADolares" Text="Pesos a dólares" Clicked="ButtonPesosADolaresClicked" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Button>
 
             <Image Source="sueldosemanal.jpg" WidthRequest="300"/>
             <Button x:Name="ButtonSueldoSemanal" Text="Sueldo Semanal" Clicked= "ButtonSueldoSemanal_Clicked" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Button>
@@ -17,11 +20,8 @@
             <Image Source="langosta.jpg" WidthRequest="300"/>
             <Button x:Name="ButtonLangosta" Text="Langosta" Clicked= "ButtonLangosta_Clicked" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Button>
 
-            <Image Source="numerospares.jpg" WidthRequest="300"/>
-            <Button x:Name="Buttonnumerospares" Text="Números Pares" Clicked= "Buttonnumerospares_Clicked" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Button>
-
-            <Image Source="cuentaregresiva.jpg" WidthRequest="300"/>
-            <Button x:Name="ButtonCuentaRegresiva" Text="Cuenta Regresiva" Clicked= "ButtonCuentaRegresiva_Clicked" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Button>
+            <Image Source="pesosdolares.jpg" WidthRequest="300"/>
+            <Button x:Name="ButtonPesosADolares" Text="Pesos a dólares" Clicked="ButtonPesosADolaresClicked" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Button>
         </VerticalStackLayout>
     </ScrollView>
 
