@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_Grupal.CuentaRegresiva"
+             Title="Cuenta Regresiva">
+
+    <ScrollView>
+        <VerticalStackLayout Margin="25, 25, 25, 25">
+            <Image Source="cuentaregresiva.jpg" WidthRequest="300"/>
+            <Label Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium">Presiona el boton para mostrar el conteo</Label>
+            <Button x:Name="Button" Text="Mostrar conteo" Clicked="ButtonClicked" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Button>
+            <Label x:Name="Numeros" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium" IsVisible="False"></Label>
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>

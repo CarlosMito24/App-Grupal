@@ -17,6 +17,11 @@
             <Image Source="langosta.jpg" WidthRequest="300"/>
             <Button x:Name="ButtonLangosta" Text="Langosta" Clicked= "ButtonLangosta_Clicked" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Button>
 
+            <Image Source="numerospares.jpg" WidthRequest="300"/>
+            <Button x:Name="Buttonnumerospares" Text="Números Pares" Clicked= "Buttonnumerospares_Clicked" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Button>
+
+            <Image Source="cuentaregresiva.jpg" WidthRequest="300"/>
+            <Button x:Name="ButtonCuentaRegresiva" Text="Cuenta Regresiva" Clicked= "ButtonCuentaRegresiva_Clicked" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Button>
         </VerticalStackLayout>
     </ScrollView>
 

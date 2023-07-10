@@ -49,7 +49,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\cuentaregresiva.jpg" />
 	  <None Remove="Resources\Images\Langosta.jpg" />
+	  <None Remove="Resources\Images\numerospares.jpg" />
 	  <None Remove="Resources\Images\pesosdolares.jpg" />
 	  <None Remove="Resources\Images\SueldoSemanal.jpg" />
 	  <None Remove="Resources\Images\tablas.png" />
@@ -60,10 +62,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="CuentaRegresiva.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Langosta.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="MostrarTabla.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="NumerosPares.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="PesosADolares.xaml">

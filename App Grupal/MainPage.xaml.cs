@@ -36,4 +36,14 @@ public partial class MainPage : ContentPage
     {
         Navigation.PushAsync(new Langosta());
     }
+
+    private void Buttonnumerospares_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new NumerosPares());
+    }
+
+    private void ButtonCuentaRegresiva_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new CuentaRegresiva());
+    }
 }
