@@ -23,7 +23,7 @@ public partial class SueldoSemanal : ContentPage
         else
         {
             DisplayAlert("Error", "Introduce los datos solicitados", "Ok");
-            la.Text = "";
+            la.Text = string.Empty;
         }
        
     }
