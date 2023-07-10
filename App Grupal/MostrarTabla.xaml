@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_Grupal.MostrarTabla"
+             Title="Mostrar Tabla">
+
+    <ScrollView>
+        <VerticalStackLayout Margin="25, 25, 25, 25">
+            <Label Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium">La tabla de multiplicar del número dado es:</Label>
+            <Label x:Name="Número1"  Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Label>
+            <Label x:Name="Número2"  Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Label>
+            <Label x:Name="Número3"  Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Label>
+            <Label x:Name="Número4"  Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Label>
+            <Label x:Name="Número5"  Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Label>
+            <Label x:Name="Número6"  Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Label>
+            <Label x:Name="Número7"  Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Label>
+            <Label x:Name="Número8"  Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Label>
+            <Label x:Name="Número9"  Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Label>
+            <Label x:Name="Número10"  Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Label>
+            <Button x:Name="ButtonVolver" Text="Volver a ejecutar" Clicked="ButtonVolverClicked" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Button>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

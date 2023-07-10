@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_Grupal.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Margin="25, 25, 25, 25">
+            <Image Source="tablas.png" WidthRequest="300"/>
+            <Button x:Name="ButtonTablas" Text="Tablas de multiplicar" Clicked="ButtonTablasClicked" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Button>
+
+            <Image Source="pesosdolares.jpg" WidthRequest="300"/>
+            <Button x:Name="ButtonPesosADolares" Text="Pesos a dólares" Clicked="ButtonPesosADolaresClicked" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Button>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
