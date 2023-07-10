@@ -36,13 +36,12 @@ public partial class Langosta : ContentPage
             {
                 tt = (p * 95);
             }
-
             la.Text = Convert.ToString("$ " + tt);
         }
         else
         {
             DisplayAlert("Error", "Introduce los datos solicitados", "Ok");
-
+            la.Text = string.Empty;
         }
         
     }
