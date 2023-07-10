@@ -23,7 +23,7 @@
                    Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium">
             </Entry>
 
-            <Button x:Name="Button" Text="Calcular Sueldo" Clicked="Button_Clicked" 
+            <Button Text="Calcular Sueldo" Clicked="Button_Clicked" 
                     Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium">
             </Button>
             
