@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_Grupal.SueldoSemanal"
+             Title="Sueldo Semanal">
+    
+    <ScrollView>
+        <VerticalStackLayout Margin="25, 25, 25, 25">
+            <Image Source="sueldosemanal.jpg" 
+                   WidthRequest="300"/>
+
+            <Label Margin="10, 10, 10, 10" FontFamily="Century Gothic"
+                   FontSize="Medium">Digite las horas que trabajó en la semana</Label>
+
+            <Entry x:Name="ht" Placeholder="Horas que trabajó" 
+                   Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium">
+            </Entry>
+
+            <Label Margin="10, 10, 10, 10" FontFamily="Century Gothic"
+                   FontSize="Medium">Digite el pago por hora</Label>
+
+            <Entry x:Name="ph" Placeholder="Escriba el pago por hora que recibe" 
+                   Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium">
+            </Entry>
+
+            <Button x:Name="Button" Text="Calcular Sueldo" Clicked="Button_Clicked" 
+                    Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium">
+            </Button>
+            
+            <Label Margin="10, 10, 10, 10" FontFamily="Century Gothic"
+                   FontSize="Medium"> El pago es:
+            </Label>
+
+            <Label x:Name="la" Margin="10, 10, 10, 10" FontFamily="Century Gothic"
+                   FontSize="Medium">
+            </Label>
+
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>

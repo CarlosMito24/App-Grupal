@@ -26,4 +26,14 @@ public partial class MainPage : ContentPage
     {
         Navigation.PushAsync(new PesosADolares());
     }
+
+    private void ButtonSueldoSemanal_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new SueldoSemanal());
+    }
+
+    private void ButtonLangosta_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Langosta());
+    }
 }

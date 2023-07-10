@@ -10,6 +10,13 @@
 
             <Image Source="pesosdolares.jpg" WidthRequest="300"/>
             <Button x:Name="ButtonPesosADolares" Text="Pesos a dólares" Clicked="ButtonPesosADolaresClicked" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Button>
+
+            <Image Source="sueldosemanal.jpg" WidthRequest="300"/>
+            <Button x:Name="ButtonSueldoSemanal" Text="Sueldo Semanal" Clicked= "ButtonSueldoSemanal_Clicked" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Button>
+
+            <Image Source="langosta.jpg" WidthRequest="300"/>
+            <Button x:Name="ButtonLangosta" Text="Langosta" Clicked= "ButtonLangosta_Clicked" Margin="10, 10, 10, 10" FontFamily="Century Gothic" FontSize="Medium"></Button>
+
         </VerticalStackLayout>
     </ScrollView>
 

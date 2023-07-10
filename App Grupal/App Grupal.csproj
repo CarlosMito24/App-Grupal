@@ -49,7 +49,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\Langosta.jpg" />
 	  <None Remove="Resources\Images\pesosdolares.jpg" />
+	  <None Remove="Resources\Images\SueldoSemanal.jpg" />
 	  <None Remove="Resources\Images\tablas.png" />
 	</ItemGroup>
 
@@ -58,10 +60,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Langosta.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="MostrarTabla.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="PesosADolares.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="SueldoSemanal.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="TablasDeMultiplicar.xaml">
